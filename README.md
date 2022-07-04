@@ -14,7 +14,7 @@ var plugin = Plugin(
   /@(\w+)/,
 
   // this function will be called when something matches
-  function(match, utils) {
+  function(match, utils, currentDocument) {
     var url = 'http://example.org/u/' + match[1]
 
     return '<a href="' + utils.escape(url) + '">'

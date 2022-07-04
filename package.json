@@ -1,17 +1,32 @@
 {
-  "name"          : "@shdwcat/markdown-it-regexp",
-  "version"       : "0.4.0",
-  "description"   : "plugin that makes regexp replacement simple",
-
-  "author"        : { "name"     : "Alex Kocharin",
-                      "email"    : "alex@kocharin.ru" },
-
-  "repository"    : { "type"     : "git",
-                      "url"      : "git://github.com/shdwcat/markdown-it-regexp" },
-
-  "keywords"      : [ "markdown-it-plugin" ],
-  
-  "publishConfig" : { "registry" : "https://registry.npmjs.org/" },
-
-  "license"       : "MIT"
+  "name": "@shdwcat/markdown-it-regexp",
+  "version": "0.4.0",
+  "description": "plugin that makes regexp replacement simple",
+  "author": "shdwcat (https://github.com/shdwcat)",
+  "contributors": [
+     "Alex Kocharin <alex@kocharin.ru>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shdwcat/markdown-it-regexp.git"
+  },
+  "keywords": [
+    "markdown-it-plugin"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shdwcat/markdown-it-regexp/issues"
+  },
+  "homepage": "https://github.com/shdwcat/markdown-it-regexp#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
